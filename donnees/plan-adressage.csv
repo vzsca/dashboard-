@@ -1,0 +1,17 @@
+reseau;site;famille;description
+10.10.1.0/24;Site A;réseau;Équipements réseau
+10.10.2.0/24;Site A;serveurs;Serveurs
+10.10.10.0/24;Site A;postes fixes;Postes de travail fixes
+10.10.11.0/24;Site A;portables;Ordinateurs portables
+10.10.20.0/24;Site A;imprimantes;Imprimantes
+10.30.1.0/24;Site B;réseau;Équipements réseau
+10.30.2.0/24;Site B;serveurs;Serveurs
+10.30.10.0/24;Site B;postes fixes;Postes de travail fixes
+10.30.11.0/24;Site B;portables;Ordinateurs portables
+10.30.20.0/24;Site B;imprimantes;Imprimantes
+10.30.40.0/24;Site B;scanners;Scanners de démonstration
+10.50.1.0/24;Site C;réseau;Équipements réseau
+10.50.10.0/24;Site C;postes fixes;Postes de travail fixes
+10.50.11.0/24;Site C;portables;Ordinateurs portables
+10.50.20.0/24;Site C;imprimantes;Imprimantes
+10.99.0.0/24;VPN de démonstration;accès distant;Accès distant de démonstration

@@ -1,0 +1,6 @@
+python/
+rapports/
+__pycache__/
+_depart/
+*.pyc
+mise-a-niveau/rapport-mini.txt

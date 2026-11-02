@@ -1,0 +1,412 @@
+Oct 27 07:48:53 srv-app-01 sshd[22390]: Accepted password for user01 from 10.50.10.15 port 39418 ssh2
+Oct 27 07:48:53 srv-app-01 sshd[22390]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 27 07:55:42 srv-files-01 sshd[23688]: Failed password for user03 from 10.30.10.58 port 43574 ssh2
+Oct 27 08:24:40 srv-web-01 sshd[22102]: Accepted password for admin-demo from 10.10.1.3 port 37991 ssh2
+Oct 27 08:24:40 srv-web-01 sshd[22102]: pam_unix(sshd:session): session opened for user admin-demo(uid=1007) by (uid=0)
+Oct 27 08:31:05 srv-app-01 sshd[4314]: Failed password for user01 from 10.10.10.35 port 48073 ssh2
+Oct 27 08:31:06 srv-app-01 sshd[4314]: Received disconnect from 10.10.10.35 port 48073:11: Bye Bye [preauth]
+Oct 27 08:31:19 srv-app-01 sshd[15450]: Accepted password for user01 from 10.10.10.35 port 57233 ssh2
+Oct 27 08:31:19 srv-app-01 sshd[15450]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 27 08:58:40 srv-web-01 sshd[22102]: Disconnected from user admin-demo 10.10.1.3 port 37991
+Oct 27 08:58:40 srv-web-01 sshd[22102]: pam_unix(sshd:session): session closed for user admin-demo
+Oct 27 09:34:53 srv-app-01 sshd[22390]: Disconnected from user user01 10.50.10.15 port 39418
+Oct 27 09:34:53 srv-app-01 sshd[22390]: pam_unix(sshd:session): session closed for user user01
+Oct 27 10:02:19 srv-app-01 sshd[15450]: Disconnected from user user01 10.10.10.35 port 57233
+Oct 27 10:02:19 srv-app-01 sshd[15450]: pam_unix(sshd:session): session closed for user user01
+Oct 27 13:36:51 srv-files-01 sshd[15599]: Accepted publickey for service-demo from 10.30.2.5 port 52180 ssh2
+Oct 27 13:36:51 srv-files-01 sshd[15599]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 27 15:01:51 srv-files-01 sshd[15599]: Disconnected from user service-demo 10.30.2.5 port 52180
+Oct 27 15:01:51 srv-files-01 sshd[15599]: pam_unix(sshd:session): session closed for user service-demo
+Oct 27 15:42:32 srv-files-01 sshd[2908]: Accepted password for user03 from 10.30.10.21 port 53522 ssh2
+Oct 27 15:42:32 srv-files-01 sshd[2908]: pam_unix(sshd:session): session opened for user user03(uid=1012) by (uid=0)
+Oct 27 16:07:32 srv-files-01 sshd[2908]: Disconnected from user user03 10.30.10.21 port 53522
+Oct 27 16:07:32 srv-files-01 sshd[2908]: pam_unix(sshd:session): session closed for user user03
+Oct 27 16:29:12 srv-files-01 sshd[27173]: Accepted publickey for service-demo from 10.30.2.5 port 52377 ssh2
+Oct 27 16:29:12 srv-files-01 sshd[27173]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 27 17:19:12 srv-files-01 sshd[27173]: Disconnected from user service-demo 10.30.2.5 port 52377
+Oct 27 17:19:12 srv-files-01 sshd[27173]: pam_unix(sshd:session): session closed for user service-demo
+Oct 28 00:45:23 srv-files-01 sshd[21970]: Invalid user test from 198.51.100.33 port 41332
+Oct 28 00:45:23 srv-files-01 sshd[21970]: Failed password for invalid user test from 198.51.100.33 port 41332 ssh2
+Oct 28 01:00:00 srv-web-01 sshd[3482]: Invalid user mysql from 198.51.100.120 port 40788
+Oct 28 01:00:00 srv-web-01 sshd[3482]: Failed password for invalid user mysql from 198.51.100.120 port 40788 ssh2
+Oct 28 01:01:24 srv-web-01 sshd[5683]: Invalid user mysql from 198.51.100.120 port 57796
+Oct 28 01:01:24 srv-web-01 sshd[5683]: Failed password for invalid user mysql from 198.51.100.120 port 57796 ssh2
+Oct 28 01:01:25 srv-web-01 sshd[5683]: Connection closed by invalid user mysql 198.51.100.120 port 57796 [preauth]
+Oct 28 01:02:57 srv-web-01 sshd[14203]: Invalid user mysql from 198.51.100.120 port 45838
+Oct 28 01:02:57 srv-web-01 sshd[14203]: Failed password for invalid user mysql from 198.51.100.120 port 45838 ssh2
+Oct 28 01:04:22 srv-web-01 sshd[29485]: Invalid user ftp from 198.51.100.120 port 45962
+Oct 28 01:04:22 srv-web-01 sshd[29485]: Failed password for invalid user ftp from 198.51.100.120 port 45962 ssh2
+Oct 28 01:05:46 srv-web-01 sshd[6137]: Invalid user tomcat from 198.51.100.120 port 49841
+Oct 28 01:05:46 srv-web-01 sshd[6137]: Failed password for invalid user tomcat from 198.51.100.120 port 49841 ssh2
+Oct 28 01:07:11 srv-web-01 sshd[30946]: Invalid user tomcat from 198.51.100.120 port 44709
+Oct 28 01:07:11 srv-web-01 sshd[30946]: Failed password for invalid user tomcat from 198.51.100.120 port 44709 ssh2
+Oct 28 01:08:42 srv-web-01 sshd[27256]: Invalid user git from 198.51.100.120 port 42101
+Oct 28 01:08:42 srv-web-01 sshd[27256]: Failed password for invalid user git from 198.51.100.120 port 42101 ssh2
+Oct 28 01:10:08 srv-web-01 sshd[7232]: Invalid user tomcat from 198.51.100.120 port 56702
+Oct 28 01:10:08 srv-web-01 sshd[7232]: Failed password for invalid user tomcat from 198.51.100.120 port 56702 ssh2
+Oct 28 01:11:42 srv-web-01 sshd[18544]: Invalid user admin from 198.51.100.120 port 47033
+Oct 28 01:11:42 srv-web-01 sshd[18544]: Failed password for invalid user admin from 198.51.100.120 port 47033 ssh2
+Oct 28 01:13:16 srv-web-01 sshd[30720]: Invalid user admin from 198.51.100.120 port 46983
+Oct 28 01:13:16 srv-web-01 sshd[30720]: Failed password for invalid user admin from 198.51.100.120 port 46983 ssh2
+Oct 28 01:13:17 srv-web-01 sshd[30720]: Connection closed by invalid user admin 198.51.100.120 port 46983 [preauth]
+Oct 28 01:14:43 srv-web-01 sshd[13037]: Invalid user tomcat from 198.51.100.120 port 48676
+Oct 28 01:14:43 srv-web-01 sshd[13037]: Failed password for invalid user tomcat from 198.51.100.120 port 48676 ssh2
+Oct 28 01:14:44 srv-web-01 sshd[13037]: Connection closed by invalid user tomcat 198.51.100.120 port 48676 [preauth]
+Oct 28 01:16:14 srv-web-01 sshd[25098]: Invalid user git from 198.51.100.120 port 53668
+Oct 28 01:16:14 srv-web-01 sshd[25098]: Failed password for invalid user git from 198.51.100.120 port 53668 ssh2
+Oct 28 01:17:39 srv-web-01 sshd[22561]: Invalid user mysql from 198.51.100.120 port 40117
+Oct 28 01:17:39 srv-web-01 sshd[22561]: Failed password for invalid user mysql from 198.51.100.120 port 40117 ssh2
+Oct 28 01:19:04 srv-web-01 sshd[22899]: Invalid user ftp from 198.51.100.120 port 35934
+Oct 28 01:19:04 srv-web-01 sshd[22899]: Failed password for invalid user ftp from 198.51.100.120 port 35934 ssh2
+Oct 28 01:20:38 srv-web-01 sshd[25918]: Invalid user tomcat from 198.51.100.120 port 53914
+Oct 28 01:20:38 srv-web-01 sshd[25918]: Failed password for invalid user tomcat from 198.51.100.120 port 53914 ssh2
+Oct 28 01:22:08 srv-web-01 sshd[4590]: Invalid user ftp from 198.51.100.120 port 49260
+Oct 28 01:22:08 srv-web-01 sshd[4590]: Failed password for invalid user ftp from 198.51.100.120 port 49260 ssh2
+Oct 28 01:23:42 srv-web-01 sshd[12973]: Invalid user ftp from 198.51.100.120 port 41443
+Oct 28 01:23:42 srv-web-01 sshd[12973]: Failed password for invalid user ftp from 198.51.100.120 port 41443 ssh2
+Oct 28 01:25:14 srv-web-01 sshd[3342]: Invalid user tomcat from 198.51.100.120 port 52269
+Oct 28 01:25:14 srv-web-01 sshd[3342]: Failed password for invalid user tomcat from 198.51.100.120 port 52269 ssh2
+Oct 28 01:26:40 srv-web-01 sshd[27437]: Invalid user admin from 198.51.100.120 port 43902
+Oct 28 01:26:40 srv-web-01 sshd[27437]: Failed password for invalid user admin from 198.51.100.120 port 43902 ssh2
+Oct 28 01:28:12 srv-web-01 sshd[19468]: Invalid user tomcat from 198.51.100.120 port 58125
+Oct 28 01:28:12 srv-web-01 sshd[19468]: Failed password for invalid user tomcat from 198.51.100.120 port 58125 ssh2
+Oct 28 01:29:40 srv-web-01 sshd[17159]: Invalid user root from 198.51.100.120 port 39307
+Oct 28 01:29:40 srv-web-01 sshd[17159]: Failed password for invalid user root from 198.51.100.120 port 39307 ssh2
+Oct 28 01:31:14 srv-web-01 sshd[27094]: Invalid user mysql from 198.51.100.120 port 36043
+Oct 28 01:31:14 srv-web-01 sshd[27094]: Failed password for invalid user mysql from 198.51.100.120 port 36043 ssh2
+Oct 28 01:32:38 srv-web-01 sshd[2077]: Invalid user tomcat from 198.51.100.120 port 42176
+Oct 28 01:32:38 srv-web-01 sshd[2077]: Failed password for invalid user tomcat from 198.51.100.120 port 42176 ssh2
+Oct 28 01:34:10 srv-web-01 sshd[12773]: Invalid user mysql from 198.51.100.120 port 35004
+Oct 28 01:34:10 srv-web-01 sshd[12773]: Failed password for invalid user mysql from 198.51.100.120 port 35004 ssh2
+Oct 28 01:35:38 srv-web-01 sshd[3605]: Invalid user mysql from 198.51.100.120 port 36191
+Oct 28 01:35:38 srv-web-01 sshd[3605]: Failed password for invalid user mysql from 198.51.100.120 port 36191 ssh2
+Oct 28 01:37:03 srv-web-01 sshd[8716]: Invalid user root from 198.51.100.120 port 37528
+Oct 28 01:37:03 srv-web-01 sshd[8716]: Failed password for invalid user root from 198.51.100.120 port 37528 ssh2
+Oct 28 01:37:04 srv-web-01 sshd[8716]: Connection closed by invalid user root 198.51.100.120 port 37528 [preauth]
+Oct 28 01:38:34 srv-web-01 sshd[8511]: Invalid user admin from 198.51.100.120 port 44303
+Oct 28 01:38:34 srv-web-01 sshd[8511]: Failed password for invalid user admin from 198.51.100.120 port 44303 ssh2
+Oct 28 01:38:35 srv-web-01 sshd[8511]: Connection closed by invalid user admin 198.51.100.120 port 44303 [preauth]
+Oct 28 01:40:00 srv-web-01 sshd[16160]: Invalid user git from 198.51.100.120 port 49170
+Oct 28 01:40:00 srv-web-01 sshd[16160]: Failed password for invalid user git from 198.51.100.120 port 49170 ssh2
+Oct 28 01:41:32 srv-web-01 sshd[12598]: Invalid user mysql from 198.51.100.120 port 46875
+Oct 28 01:41:32 srv-web-01 sshd[12598]: Failed password for invalid user mysql from 198.51.100.120 port 46875 ssh2
+Oct 28 01:41:33 srv-web-01 sshd[12598]: Connection closed by invalid user mysql 198.51.100.120 port 46875 [preauth]
+Oct 28 01:43:02 srv-web-01 sshd[29545]: Invalid user root from 198.51.100.120 port 45548
+Oct 28 01:43:02 srv-web-01 sshd[29545]: Failed password for invalid user root from 198.51.100.120 port 45548 ssh2
+Oct 28 12:25:46 srv-files-01 sshd[23406]: Invalid user root from 198.51.100.8 port 55587
+Oct 28 12:25:46 srv-files-01 sshd[23406]: Failed password for invalid user root from 198.51.100.8 port 55587 ssh2
+Oct 28 13:20:15 srv-files-01 sshd[2737]: Failed password for user03 from 10.30.10.58 port 39847 ssh2
+Oct 28 13:50:07 srv-files-01 sshd[10485]: Accepted publickey for service-demo from 10.30.2.5 port 53890 ssh2
+Oct 28 13:50:07 srv-files-01 sshd[10485]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 28 14:22:59 srv-app-01 sshd[19688]: Accepted password for user02 from 10.10.10.34 port 50625 ssh2
+Oct 28 14:22:59 srv-app-01 sshd[19688]: pam_unix(sshd:session): session opened for user user02(uid=1008) by (uid=0)
+Oct 28 14:33:07 srv-files-01 sshd[10485]: Disconnected from user service-demo 10.30.2.5 port 53890
+Oct 28 14:33:07 srv-files-01 sshd[10485]: pam_unix(sshd:session): session closed for user service-demo
+Oct 28 14:42:59 srv-app-01 sshd[19688]: Disconnected from user user02 10.10.10.34 port 50625
+Oct 28 14:42:59 srv-app-01 sshd[19688]: pam_unix(sshd:session): session closed for user user02
+Oct 28 16:06:18 srv-files-01 sshd[30099]: Accepted publickey for service-demo from 10.30.2.5 port 51230 ssh2
+Oct 28 16:06:18 srv-files-01 sshd[30099]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 28 17:04:33 srv-app-01 sshd[26421]: Accepted password for user01 from 10.10.10.35 port 55225 ssh2
+Oct 28 17:04:33 srv-app-01 sshd[26421]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 28 17:07:33 srv-app-01 sshd[26421]: Disconnected from user user01 10.10.10.35 port 55225
+Oct 28 17:07:33 srv-app-01 sshd[26421]: pam_unix(sshd:session): session closed for user user01
+Oct 28 17:46:48 srv-app-01 sshd[20773]: Accepted password for user01 from 10.50.10.15 port 36680 ssh2
+Oct 28 17:46:48 srv-app-01 sshd[20773]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 28 18:22:18 srv-files-01 sshd[30099]: Disconnected from user service-demo 10.30.2.5 port 51230
+Oct 28 18:22:18 srv-files-01 sshd[30099]: pam_unix(sshd:session): session closed for user service-demo
+Oct 28 18:46:48 srv-app-01 sshd[20773]: Disconnected from user user01 10.50.10.15 port 36680
+Oct 28 18:46:48 srv-app-01 sshd[20773]: pam_unix(sshd:session): session closed for user user01
+Oct 28 19:04:12 srv-web-01 sshd[26002]: Accepted publickey for admin-demo from 10.99.0.12 port 36336 ssh2
+Oct 28 19:04:12 srv-web-01 sshd[26002]: pam_unix(sshd:session): session opened for user admin-demo(uid=1007) by (uid=0)
+Oct 28 20:19:12 srv-web-01 sshd[26002]: Disconnected from user admin-demo 10.99.0.12 port 36336
+Oct 28 20:19:12 srv-web-01 sshd[26002]: pam_unix(sshd:session): session closed for user admin-demo
+Oct 29 03:12:08 srv-web-01 sshd[23971]: Invalid user admin from 203.0.113.45 port 53425
+Oct 29 03:12:08 srv-web-01 sshd[23971]: Failed password for invalid user admin from 203.0.113.45 port 53425 ssh2
+Oct 29 03:12:09 srv-web-01 sshd[14626]: Failed password for root from 203.0.113.45 port 33006 ssh2
+Oct 29 03:12:10 srv-web-01 sshd[14626]: Received disconnect from 203.0.113.45 port 33006:11: Bye Bye [preauth]
+Oct 29 03:12:10 srv-web-01 sshd[18463]: Invalid user test from 203.0.113.45 port 59589
+Oct 29 03:12:10 srv-web-01 sshd[18463]: Failed password for invalid user test from 203.0.113.45 port 59589 ssh2
+Oct 29 03:12:11 srv-web-01 sshd[7391]: Invalid user oracle from 203.0.113.45 port 36668
+Oct 29 03:12:11 srv-web-01 sshd[7391]: Failed password for invalid user oracle from 203.0.113.45 port 36668 ssh2
+Oct 29 03:12:12 srv-web-01 sshd[7391]: Connection closed by invalid user oracle 203.0.113.45 port 36668 [preauth]
+Oct 29 03:12:13 srv-web-01 sshd[22102]: Invalid user postgres from 203.0.113.45 port 35614
+Oct 29 03:12:13 srv-web-01 sshd[22102]: Failed password for invalid user postgres from 203.0.113.45 port 35614 ssh2
+Oct 29 03:12:14 srv-web-01 sshd[24564]: Invalid user ubuntu from 203.0.113.45 port 57337
+Oct 29 03:12:14 srv-web-01 sshd[24564]: Failed password for invalid user ubuntu from 203.0.113.45 port 57337 ssh2
+Oct 29 03:12:15 srv-web-01 sshd[24564]: Connection closed by invalid user ubuntu 203.0.113.45 port 57337 [preauth]
+Oct 29 03:12:15 srv-web-01 sshd[28195]: Invalid user user from 203.0.113.45 port 53075
+Oct 29 03:12:15 srv-web-01 sshd[28195]: Failed password for invalid user user from 203.0.113.45 port 53075 ssh2
+Oct 29 03:12:16 srv-web-01 sshd[20366]: Invalid user guest from 203.0.113.45 port 37383
+Oct 29 03:12:16 srv-web-01 sshd[20366]: Failed password for invalid user guest from 203.0.113.45 port 37383 ssh2
+Oct 29 03:12:17 srv-web-01 sshd[20366]: Connection closed by invalid user guest 203.0.113.45 port 37383 [preauth]
+Oct 29 03:12:18 srv-web-01 sshd[11299]: Invalid user admin from 203.0.113.45 port 42918
+Oct 29 03:12:18 srv-web-01 sshd[11299]: Failed password for invalid user admin from 203.0.113.45 port 42918 ssh2
+Oct 29 03:12:19 srv-web-01 sshd[7430]: Failed password for root from 203.0.113.45 port 39510 ssh2
+Oct 29 03:12:20 srv-web-01 sshd[15245]: Invalid user test from 203.0.113.45 port 38610
+Oct 29 03:12:20 srv-web-01 sshd[15245]: Failed password for invalid user test from 203.0.113.45 port 38610 ssh2
+Oct 29 03:12:22 srv-web-01 sshd[27673]: Invalid user oracle from 203.0.113.45 port 57620
+Oct 29 03:12:22 srv-web-01 sshd[27673]: Failed password for invalid user oracle from 203.0.113.45 port 57620 ssh2
+Oct 29 03:12:23 srv-web-01 sshd[24128]: Invalid user postgres from 203.0.113.45 port 58911
+Oct 29 03:12:23 srv-web-01 sshd[24128]: Failed password for invalid user postgres from 203.0.113.45 port 58911 ssh2
+Oct 29 03:12:24 srv-web-01 sshd[22315]: Invalid user ubuntu from 203.0.113.45 port 33831
+Oct 29 03:12:24 srv-web-01 sshd[22315]: Failed password for invalid user ubuntu from 203.0.113.45 port 33831 ssh2
+Oct 29 03:12:25 srv-web-01 sshd[22315]: Connection closed by invalid user ubuntu 203.0.113.45 port 33831 [preauth]
+Oct 29 03:12:25 srv-web-01 sshd[16871]: Invalid user user from 203.0.113.45 port 52982
+Oct 29 03:12:25 srv-web-01 sshd[16871]: Failed password for invalid user user from 203.0.113.45 port 52982 ssh2
+Oct 29 03:12:26 srv-web-01 sshd[16871]: Connection closed by invalid user user 203.0.113.45 port 52982 [preauth]
+Oct 29 03:12:27 srv-web-01 sshd[15564]: Invalid user guest from 203.0.113.45 port 38365
+Oct 29 03:12:27 srv-web-01 sshd[15564]: Failed password for invalid user guest from 203.0.113.45 port 38365 ssh2
+Oct 29 03:12:28 srv-web-01 sshd[8164]: Invalid user admin from 203.0.113.45 port 35521
+Oct 29 03:12:28 srv-web-01 sshd[8164]: Failed password for invalid user admin from 203.0.113.45 port 35521 ssh2
+Oct 29 03:12:29 srv-web-01 sshd[26812]: Failed password for root from 203.0.113.45 port 39431 ssh2
+Oct 29 03:12:31 srv-web-01 sshd[14686]: Invalid user test from 203.0.113.45 port 50405
+Oct 29 03:12:31 srv-web-01 sshd[14686]: Failed password for invalid user test from 203.0.113.45 port 50405 ssh2
+Oct 29 03:12:32 srv-web-01 sshd[8547]: Invalid user oracle from 203.0.113.45 port 38996
+Oct 29 03:12:32 srv-web-01 sshd[8547]: Failed password for invalid user oracle from 203.0.113.45 port 38996 ssh2
+Oct 29 03:12:33 srv-web-01 sshd[15288]: Invalid user postgres from 203.0.113.45 port 50794
+Oct 29 03:12:33 srv-web-01 sshd[15288]: Failed password for invalid user postgres from 203.0.113.45 port 50794 ssh2
+Oct 29 03:12:34 srv-web-01 sshd[15288]: Connection closed by invalid user postgres 203.0.113.45 port 50794 [preauth]
+Oct 29 03:12:34 srv-web-01 sshd[11517]: Invalid user ubuntu from 203.0.113.45 port 50722
+Oct 29 03:12:34 srv-web-01 sshd[11517]: Failed password for invalid user ubuntu from 203.0.113.45 port 50722 ssh2
+Oct 29 03:12:36 srv-web-01 sshd[11900]: Invalid user user from 203.0.113.45 port 47791
+Oct 29 03:12:36 srv-web-01 sshd[11900]: Failed password for invalid user user from 203.0.113.45 port 47791 ssh2
+Oct 29 03:12:37 srv-web-01 sshd[30948]: Invalid user guest from 203.0.113.45 port 56293
+Oct 29 03:12:37 srv-web-01 sshd[30948]: Failed password for invalid user guest from 203.0.113.45 port 56293 ssh2
+Oct 29 03:12:38 srv-web-01 sshd[11966]: Invalid user admin from 203.0.113.45 port 59771
+Oct 29 03:12:38 srv-web-01 sshd[11966]: Failed password for invalid user admin from 203.0.113.45 port 59771 ssh2
+Oct 29 03:12:39 srv-web-01 sshd[11966]: Connection closed by invalid user admin 203.0.113.45 port 59771 [preauth]
+Oct 29 03:12:40 srv-web-01 sshd[24255]: Failed password for root from 203.0.113.45 port 33699 ssh2
+Oct 29 03:12:41 srv-web-01 sshd[8728]: Invalid user test from 203.0.113.45 port 59574
+Oct 29 03:12:41 srv-web-01 sshd[8728]: Failed password for invalid user test from 203.0.113.45 port 59574 ssh2
+Oct 29 03:12:42 srv-web-01 sshd[8728]: Connection closed by invalid user test 203.0.113.45 port 59574 [preauth]
+Oct 29 03:12:42 srv-web-01 sshd[18251]: Invalid user oracle from 203.0.113.45 port 40915
+Oct 29 03:12:42 srv-web-01 sshd[18251]: Failed password for invalid user oracle from 203.0.113.45 port 40915 ssh2
+Oct 29 03:12:43 srv-web-01 sshd[17484]: Invalid user postgres from 203.0.113.45 port 58033
+Oct 29 03:12:43 srv-web-01 sshd[17484]: Failed password for invalid user postgres from 203.0.113.45 port 58033 ssh2
+Oct 29 03:12:45 srv-web-01 sshd[13100]: Invalid user ubuntu from 203.0.113.45 port 60542
+Oct 29 03:12:45 srv-web-01 sshd[13100]: Failed password for invalid user ubuntu from 203.0.113.45 port 60542 ssh2
+Oct 29 03:12:46 srv-web-01 sshd[18811]: Invalid user user from 203.0.113.45 port 49119
+Oct 29 03:12:46 srv-web-01 sshd[18811]: Failed password for invalid user user from 203.0.113.45 port 49119 ssh2
+Oct 29 03:12:47 srv-web-01 sshd[18811]: Connection closed by invalid user user 203.0.113.45 port 49119 [preauth]
+Oct 29 03:12:47 srv-web-01 sshd[28995]: Invalid user guest from 203.0.113.45 port 56007
+Oct 29 03:12:47 srv-web-01 sshd[28995]: Failed password for invalid user guest from 203.0.113.45 port 56007 ssh2
+Oct 29 03:12:49 srv-web-01 sshd[6046]: Invalid user admin from 203.0.113.45 port 44003
+Oct 29 03:12:49 srv-web-01 sshd[6046]: Failed password for invalid user admin from 203.0.113.45 port 44003 ssh2
+Oct 29 03:12:50 srv-web-01 sshd[6046]: Connection closed by invalid user admin 203.0.113.45 port 44003 [preauth]
+Oct 29 03:12:50 srv-web-01 sshd[4496]: Failed password for root from 203.0.113.45 port 33380 ssh2
+Oct 29 03:12:51 srv-web-01 sshd[14214]: Invalid user test from 203.0.113.45 port 42185
+Oct 29 03:12:51 srv-web-01 sshd[14214]: Failed password for invalid user test from 203.0.113.45 port 42185 ssh2
+Oct 29 03:12:52 srv-web-01 sshd[15657]: Invalid user oracle from 203.0.113.45 port 56738
+Oct 29 03:12:52 srv-web-01 sshd[15657]: Failed password for invalid user oracle from 203.0.113.45 port 56738 ssh2
+Oct 29 03:12:54 srv-web-01 sshd[6303]: Invalid user postgres from 203.0.113.45 port 44424
+Oct 29 03:12:54 srv-web-01 sshd[6303]: Failed password for invalid user postgres from 203.0.113.45 port 44424 ssh2
+Oct 29 03:12:55 srv-web-01 sshd[10491]: Invalid user ubuntu from 203.0.113.45 port 50352
+Oct 29 03:12:55 srv-web-01 sshd[10491]: Failed password for invalid user ubuntu from 203.0.113.45 port 50352 ssh2
+Oct 29 03:12:56 srv-web-01 sshd[11269]: Invalid user user from 203.0.113.45 port 40199
+Oct 29 03:12:56 srv-web-01 sshd[11269]: Failed password for invalid user user from 203.0.113.45 port 40199 ssh2
+Oct 29 03:12:57 srv-web-01 sshd[11269]: Connection closed by invalid user user 203.0.113.45 port 40199 [preauth]
+Oct 29 03:12:58 srv-web-01 sshd[21448]: Invalid user guest from 203.0.113.45 port 38742
+Oct 29 03:12:58 srv-web-01 sshd[21448]: Failed password for invalid user guest from 203.0.113.45 port 38742 ssh2
+Oct 29 08:41:30 srv-app-01 sshd[24925]: Failed password for user02 from 10.10.10.34 port 35269 ssh2
+Oct 29 08:41:40 srv-app-01 sshd[27436]: Failed password for user02 from 10.10.10.34 port 37420 ssh2
+Oct 29 08:41:41 srv-app-01 sshd[27436]: Received disconnect from 10.10.10.34 port 37420:11: Bye Bye [preauth]
+Oct 29 08:41:50 srv-app-01 sshd[12846]: Failed password for user02 from 10.10.10.34 port 47150 ssh2
+Oct 29 08:42:03 srv-app-01 sshd[23317]: Accepted password for user02 from 10.10.10.34 port 35481 ssh2
+Oct 29 08:42:03 srv-app-01 sshd[23317]: pam_unix(sshd:session): session opened for user user02(uid=1008) by (uid=0)
+Oct 29 09:03:54 srv-files-01 sshd[4167]: Failed password for user03 from 10.30.10.58 port 40624 ssh2
+Oct 29 09:03:55 srv-files-01 sshd[4167]: Received disconnect from 10.30.10.58 port 40624:11: Bye Bye [preauth]
+Oct 29 09:25:05 srv-app-01 sshd[8622]: Accepted password for user01 from 10.50.10.15 port 47247 ssh2
+Oct 29 09:25:05 srv-app-01 sshd[8622]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 29 09:43:45 srv-web-01 sshd[12508]: Accepted publickey for service-demo from 10.10.2.5 port 44002 ssh2
+Oct 29 09:43:45 srv-web-01 sshd[12508]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 29 09:48:03 srv-app-01 sshd[23317]: Disconnected from user user02 10.10.10.34 port 35481
+Oct 29 09:48:03 srv-app-01 sshd[23317]: pam_unix(sshd:session): session closed for user user02
+Oct 29 11:00:17 srv-files-01 sshd[10951]: Accepted password for batch-demo from 10.30.40.7 port 35831 ssh2
+Oct 29 11:00:17 srv-files-01 sshd[10951]: pam_unix(sshd:session): session opened for user batch-demo(uid=1009) by (uid=0)
+Oct 29 11:15:05 srv-app-01 sshd[8622]: Disconnected from user user01 10.50.10.15 port 47247
+Oct 29 11:15:05 srv-app-01 sshd[8622]: pam_unix(sshd:session): session closed for user user01
+Oct 29 11:44:17 srv-files-01 sshd[10951]: Disconnected from user batch-demo 10.30.40.7 port 35831
+Oct 29 11:44:17 srv-files-01 sshd[10951]: pam_unix(sshd:session): session closed for user batch-demo
+Oct 29 12:01:45 srv-web-01 sshd[12508]: Disconnected from user service-demo 10.10.2.5 port 44002
+Oct 29 12:01:45 srv-web-01 sshd[12508]: pam_unix(sshd:session): session closed for user service-demo
+Oct 29 12:53:07 srv-files-01 sshd[16787]: Accepted password for batch-demo from 10.30.40.7 port 55944 ssh2
+Oct 29 12:53:07 srv-files-01 sshd[16787]: pam_unix(sshd:session): session opened for user batch-demo(uid=1009) by (uid=0)
+Oct 29 13:01:07 srv-files-01 sshd[16787]: Disconnected from user batch-demo 10.30.40.7 port 55944
+Oct 29 13:01:07 srv-files-01 sshd[16787]: pam_unix(sshd:session): session closed for user batch-demo
+Oct 29 14:02:05 srv-app-01 sshd[2823]: Failed password for user04 from 10.10.11.12 port 44730 ssh2
+Oct 29 14:02:19 srv-app-01 sshd[31303]: Accepted password for user04 from 10.10.11.12 port 60690 ssh2
+Oct 29 14:02:19 srv-app-01 sshd[31303]: pam_unix(sshd:session): session opened for user user04(uid=1004) by (uid=0)
+Oct 29 15:27:19 srv-app-01 sshd[31303]: Disconnected from user user04 10.10.11.12 port 60690
+Oct 29 15:27:19 srv-app-01 sshd[31303]: pam_unix(sshd:session): session closed for user user04
+Oct 29 18:52:09 srv-files-01 sshd[26226]: Accepted password for batch-demo from 10.30.40.7 port 41175 ssh2
+Oct 29 18:52:09 srv-files-01 sshd[26226]: pam_unix(sshd:session): session opened for user batch-demo(uid=1009) by (uid=0)
+Oct 29 20:52:09 srv-files-01 sshd[26226]: Disconnected from user batch-demo 10.30.40.7 port 41175
+Oct 29 20:52:09 srv-files-01 sshd[26226]: pam_unix(sshd:session): session closed for user batch-demo
+Oct 30 02:44:21 srv-web-01 sshd[29865]: Invalid user admin from 203.0.113.99 port 50370
+Oct 30 02:44:21 srv-web-01 sshd[29865]: Failed password for invalid user admin from 203.0.113.99 port 50370 ssh2
+Oct 30 02:44:22 srv-web-01 sshd[29865]: Connection closed by invalid user admin 203.0.113.99 port 50370 [preauth]
+Oct 30 02:44:31 srv-web-01 sshd[31557]: Invalid user admin from 203.0.113.99 port 51613
+Oct 30 02:44:31 srv-web-01 sshd[31557]: Failed password for invalid user admin from 203.0.113.99 port 51613 ssh2
+Oct 30 02:44:32 srv-web-01 sshd[31557]: Connection closed by invalid user admin 203.0.113.99 port 51613 [preauth]
+Oct 30 02:44:41 srv-web-01 sshd[30583]: Invalid user admin from 203.0.113.99 port 47091
+Oct 30 02:44:41 srv-web-01 sshd[30583]: Failed password for invalid user admin from 203.0.113.99 port 47091 ssh2
+Oct 30 02:44:51 srv-web-01 sshd[15391]: Invalid user admin from 203.0.113.99 port 41562
+Oct 30 02:44:51 srv-web-01 sshd[15391]: Failed password for invalid user admin from 203.0.113.99 port 41562 ssh2
+Oct 30 02:44:52 srv-web-01 sshd[15391]: Connection closed by invalid user admin 203.0.113.99 port 41562 [preauth]
+Oct 30 11:30:39 srv-files-01 sshd[22624]: Accepted publickey for service-demo from 10.30.2.5 port 46970 ssh2
+Oct 30 11:30:39 srv-files-01 sshd[22624]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 30 12:21:43 srv-app-01 sshd[5373]: Accepted password for user02 from 10.10.10.34 port 42422 ssh2
+Oct 30 12:21:43 srv-app-01 sshd[5373]: pam_unix(sshd:session): session opened for user user02(uid=1008) by (uid=0)
+Oct 30 13:02:39 srv-files-01 sshd[22624]: Disconnected from user service-demo 10.30.2.5 port 46970
+Oct 30 13:02:39 srv-files-01 sshd[22624]: pam_unix(sshd:session): session closed for user service-demo
+Oct 30 14:10:43 srv-app-01 sshd[5373]: Disconnected from user user02 10.10.10.34 port 42422
+Oct 30 14:10:43 srv-app-01 sshd[5373]: pam_unix(sshd:session): session closed for user user02
+Oct 30 14:26:40 srv-web-01 sshd[1141]: Failed password for user01 from 198.51.100.77 port 54432 ssh2
+Oct 30 14:26:41 srv-web-01 sshd[1141]: Received disconnect from 198.51.100.77 port 54432:11: Bye Bye [preauth]
+Oct 30 14:26:45 srv-web-01 sshd[23552]: Failed password for user02 from 198.51.100.77 port 59159 ssh2
+Oct 30 14:26:46 srv-web-01 sshd[23552]: Received disconnect from 198.51.100.77 port 59159:11: Bye Bye [preauth]
+Oct 30 14:26:50 srv-web-01 sshd[21625]: Failed password for user04 from 198.51.100.77 port 49510 ssh2
+Oct 30 14:26:55 srv-web-01 sshd[22859]: Failed password for admin-demo from 198.51.100.77 port 55184 ssh2
+Oct 30 14:27:00 srv-web-01 sshd[18402]: Failed password for service-demo from 198.51.100.77 port 51101 ssh2
+Oct 30 14:27:05 srv-web-01 sshd[28263]: Failed password for batch-demo from 198.51.100.77 port 59666 ssh2
+Oct 30 14:27:10 srv-web-01 sshd[13465]: Failed password for user01 from 198.51.100.77 port 51531 ssh2
+Oct 30 14:27:11 srv-web-01 sshd[13465]: Received disconnect from 198.51.100.77 port 51531:11: Bye Bye [preauth]
+Oct 30 14:27:15 srv-web-01 sshd[1765]: Failed password for user02 from 198.51.100.77 port 56410 ssh2
+Oct 30 14:27:20 srv-web-01 sshd[15247]: Failed password for user04 from 198.51.100.77 port 49427 ssh2
+Oct 30 14:27:25 srv-web-01 sshd[22053]: Failed password for admin-demo from 198.51.100.77 port 58524 ssh2
+Oct 30 14:27:30 srv-web-01 sshd[7162]: Failed password for service-demo from 198.51.100.77 port 35508 ssh2
+Oct 30 14:27:35 srv-web-01 sshd[6304]: Failed password for batch-demo from 198.51.100.77 port 55871 ssh2
+Oct 30 14:27:40 srv-web-01 sshd[18855]: Failed password for user01 from 198.51.100.77 port 37211 ssh2
+Oct 30 14:27:45 srv-web-01 sshd[3127]: Failed password for user02 from 198.51.100.77 port 53010 ssh2
+Oct 30 14:27:50 srv-web-01 sshd[26615]: Failed password for user04 from 198.51.100.77 port 51297 ssh2
+Oct 30 14:27:55 srv-web-01 sshd[15928]: Failed password for admin-demo from 198.51.100.77 port 48402 ssh2
+Oct 30 14:28:00 srv-web-01 sshd[3899]: Failed password for service-demo from 198.51.100.77 port 54030 ssh2
+Oct 30 14:28:05 srv-web-01 sshd[1666]: Failed password for batch-demo from 198.51.100.77 port 57813 ssh2
+Oct 30 14:28:10 srv-web-01 sshd[17940]: Failed password for user01 from 198.51.100.77 port 46994 ssh2
+Oct 30 14:28:15 srv-web-01 sshd[22642]: Failed password for user02 from 198.51.100.77 port 58833 ssh2
+Oct 30 14:28:20 srv-web-01 sshd[16790]: Failed password for user04 from 198.51.100.77 port 53124 ssh2
+Oct 30 14:28:25 srv-web-01 sshd[8613]: Failed password for admin-demo from 198.51.100.77 port 40021 ssh2
+Oct 30 15:56:31 srv-web-01 sshd[3166]: Accepted publickey for service-demo from 10.10.2.5 port 57892 ssh2
+Oct 30 15:56:31 srv-web-01 sshd[3166]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 30 16:08:53 srv-app-01 sshd[8428]: Accepted password for user01 from 10.10.10.35 port 38738 ssh2
+Oct 30 16:08:53 srv-app-01 sshd[8428]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 30 16:22:31 srv-web-01 sshd[3166]: Disconnected from user service-demo 10.10.2.5 port 57892
+Oct 30 16:22:31 srv-web-01 sshd[3166]: pam_unix(sshd:session): session closed for user service-demo
+Oct 30 16:41:28 srv-files-01 sshd[23516]: Failed password for user03 from 10.30.10.58 port 54409 ssh2
+Oct 30 16:56:53 srv-app-01 sshd[8428]: Disconnected from user user01 10.10.10.35 port 38738
+Oct 30 16:56:53 srv-app-01 sshd[8428]: pam_unix(sshd:session): session closed for user user01
+Oct 30 18:11:10 srv-files-01 sshd[24735]: Accepted password for batch-demo from 10.30.40.9 port 47239 ssh2
+Oct 30 18:11:10 srv-files-01 sshd[24735]: pam_unix(sshd:session): session opened for user batch-demo(uid=1009) by (uid=0)
+Oct 30 19:51:10 srv-files-01 sshd[24735]: Disconnected from user batch-demo 10.30.40.9 port 47239
+Oct 30 19:51:10 srv-files-01 sshd[24735]: pam_unix(sshd:session): session closed for user batch-demo
+Oct 30 21:40:12 srv-web-01 sshd[28178]: Accepted publickey for admin-demo from 10.99.0.12 port 37750 ssh2
+Oct 30 21:40:12 srv-web-01 sshd[28178]: pam_unix(sshd:session): session opened for user admin-demo(uid=1007) by (uid=0)
+Oct 30 23:07:12 srv-web-01 sshd[28178]: Disconnected from user admin-demo 10.99.0.12 port 37750
+Oct 30 23:07:12 srv-web-01 sshd[28178]: pam_unix(sshd:session): session closed for user admin-demo
+Oct 31 05:52:09 srv-files-01 sshd[28513]: Invalid user admin from 203.0.113.7 port 52813
+Oct 31 05:52:09 srv-files-01 sshd[28513]: Failed password for invalid user admin from 203.0.113.7 port 52813 ssh2
+Oct 31 08:12:36 srv-files-01 sshd[23527]: Failed password for user03 from 10.30.10.58 port 56103 ssh2
+Oct 31 08:56:11 srv-app-01 sshd[26643]: Accepted password for user02 from 10.10.10.34 port 56127 ssh2
+Oct 31 08:56:11 srv-app-01 sshd[26643]: pam_unix(sshd:session): session opened for user user02(uid=1008) by (uid=0)
+Oct 31 09:00:11 srv-app-01 sshd[26643]: Disconnected from user user02 10.10.10.34 port 56127
+Oct 31 09:00:11 srv-app-01 sshd[26643]: pam_unix(sshd:session): session closed for user user02
+Oct 31 10:47:05 srv-app-01 sshd[17258]: Failed password for user01 from 10.50.10.15 port 46960 ssh2
+Oct 31 10:47:06 srv-app-01 sshd[17258]: Received disconnect from 10.50.10.15 port 46960:11: Bye Bye [preauth]
+Oct 31 10:47:19 srv-app-01 sshd[27920]: Accepted password for user01 from 10.50.10.15 port 32964 ssh2
+Oct 31 10:47:19 srv-app-01 sshd[27920]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 31 11:25:56 srv-app-01 sshd[3151]: Accepted password for user02 from 10.10.10.34 port 35284 ssh2
+Oct 31 11:25:56 srv-app-01 sshd[3151]: pam_unix(sshd:session): session opened for user user02(uid=1008) by (uid=0)
+Oct 31 11:32:56 srv-app-01 sshd[3151]: Disconnected from user user02 10.10.10.34 port 35284
+Oct 31 11:32:56 srv-app-01 sshd[3151]: pam_unix(sshd:session): session closed for user user02
+Oct 31 12:02:19 srv-app-01 sshd[27920]: Disconnected from user user01 10.50.10.15 port 32964
+Oct 31 12:02:19 srv-app-01 sshd[27920]: pam_unix(sshd:session): session closed for user user01
+Oct 31 12:26:45 srv-files-01 sshd[7298]: Invalid user test from 198.51.100.33 port 43682
+Oct 31 12:26:45 srv-files-01 sshd[7298]: Failed password for invalid user test from 198.51.100.33 port 43682 ssh2
+Oct 31 13:40:59 srv-app-01 sshd[13513]: Accepted password for user01 from 10.10.10.35 port 55338 ssh2
+Oct 31 13:40:59 srv-app-01 sshd[13513]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 31 14:40:59 srv-app-01 sshd[13513]: Disconnected from user user01 10.10.10.35 port 55338
+Oct 31 14:40:59 srv-app-01 sshd[13513]: pam_unix(sshd:session): session closed for user user01
+Oct 31 15:31:28 srv-app-01 sshd[16157]: Accepted password for user01 from 10.50.10.15 port 33984 ssh2
+Oct 31 15:31:28 srv-app-01 sshd[16157]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 31 17:43:28 srv-app-01 sshd[16157]: Disconnected from user user01 10.50.10.15 port 33984
+Oct 31 17:43:28 srv-app-01 sshd[16157]: pam_unix(sshd:session): session closed for user user01
+Oct 31 18:12:19 srv-web-01 sshd[12137]: Accepted publickey for service-demo from 10.10.2.5 port 52158 ssh2
+Oct 31 18:12:19 srv-web-01 sshd[12137]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Oct 31 19:52:19 srv-web-01 sshd[12137]: Disconnected from user service-demo 10.10.2.5 port 52158
+Oct 31 19:52:19 srv-web-01 sshd[12137]: pam_unix(sshd:session): session closed for user service-demo
+Oct 31 22:41:03 srv-app-01 sshd[11746]: Failed password for user01 from 192.0.2.19 port 48138 ssh2
+Oct 31 22:41:08 srv-app-01 sshd[13384]: Failed password for user01 from 192.0.2.19 port 51529 ssh2
+Oct 31 22:41:13 srv-app-01 sshd[18431]: Failed password for user01 from 192.0.2.19 port 44964 ssh2
+Oct 31 22:41:18 srv-app-01 sshd[28040]: Failed password for user01 from 192.0.2.19 port 46150 ssh2
+Oct 31 22:41:23 srv-app-01 sshd[29454]: Failed password for user01 from 192.0.2.19 port 45233 ssh2
+Oct 31 22:41:24 srv-app-01 sshd[29454]: Received disconnect from 192.0.2.19 port 45233:11: Bye Bye [preauth]
+Oct 31 22:41:28 srv-app-01 sshd[30336]: Failed password for user01 from 192.0.2.19 port 39347 ssh2
+Oct 31 22:41:33 srv-app-01 sshd[2130]: Failed password for user01 from 192.0.2.19 port 56459 ssh2
+Oct 31 22:41:34 srv-app-01 sshd[2130]: Received disconnect from 192.0.2.19 port 56459:11: Bye Bye [preauth]
+Oct 31 22:41:38 srv-app-01 sshd[10593]: Failed password for user01 from 192.0.2.19 port 42075 ssh2
+Oct 31 22:41:50 srv-app-01 sshd[27532]: Accepted password for user01 from 192.0.2.19 port 48558 ssh2
+Oct 31 22:41:50 srv-app-01 sshd[27532]: pam_unix(sshd:session): session opened for user user01(uid=1008) by (uid=0)
+Oct 31 23:28:50 srv-app-01 sshd[27532]: Disconnected from user user01 192.0.2.19 port 48558
+Oct 31 23:28:50 srv-app-01 sshd[27532]: pam_unix(sshd:session): session closed for user user01
+Nov  1 03:03:03 srv-web-01 sshd[24145]: Invalid user admin from 198.51.100.200 port 59288
+Nov  1 03:03:03 srv-web-01 sshd[24145]: Failed password for invalid user admin from 198.51.100.200 port 59288 ssh2
+Nov  1 03:03:04 srv-web-01 sshd[24145]: Connection closed by invalid user admin 198.51.100.200 port 59288 [preauth]
+Nov  1 03:03:08 srv-web-01 sshd[26366]: Invalid user <script>x</script> from 198.51.100.200 port 56493
+Nov  1 03:03:08 srv-web-01 sshd[26366]: Failed password for invalid user <script>x</script> from 198.51.100.200 port 56493 ssh2
+Nov  1 03:03:13 srv-web-01 sshd[21095]: Invalid user root from 198.51.100.200 port 34952
+Nov  1 03:03:13 srv-web-01 sshd[21095]: Failed password for invalid user root from 198.51.100.200 port 34952 ssh2
+Nov  1 03:03:14 srv-web-01 sshd[21095]: Connection closed by invalid user root 198.51.100.200 port 34952 [preauth]
+Nov  1 03:03:18 srv-web-01 sshd[7789]: Invalid user test from 198.51.100.200 port 48106
+Nov  1 03:03:18 srv-web-01 sshd[7789]: Failed password for invalid user test from 198.51.100.200 port 48106 ssh2
+Nov  1 03:03:23 srv-web-01 sshd[11276]: Invalid user guest from 198.51.100.200 port 46812
+Nov  1 03:03:23 srv-web-01 sshd[11276]: Failed password for invalid user guest from 198.51.100.200 port 46812 ssh2
+Nov  1 07:40:32 srv-files-01 sshd[24656]: Invalid user oracle from 192.0.2.61 port 43833
+Nov  1 07:40:32 srv-files-01 sshd[24656]: Failed password for invalid user oracle from 192.0.2.61 port 43833 ssh2
+Nov  1 08:43:27 srv-web-01 sshd[17794]: Accepted publickey for service-demo from 10.10.2.5 port 58173 ssh2
+Nov  1 08:43:27 srv-web-01 sshd[17794]: pam_unix(sshd:session): session opened for user service-demo(uid=1010) by (uid=0)
+Nov  1 09:15:12 srv-web-01 sshd[28386]: Accepted publickey for admin-demo from 10.99.0.12 port 40219 ssh2
+Nov  1 09:15:12 srv-web-01 sshd[28386]: pam_unix(sshd:session): session opened for user admin-demo(uid=1007) by (uid=0)
+Nov  1 10:05:27 srv-web-01 sshd[17794]: Disconnected from user service-demo 10.10.2.5 port 58173
+Nov  1 10:05:27 srv-web-01 sshd[17794]: pam_unix(sshd:session): session closed for user service-demo
+Nov  1 10:09:12 srv-web-01 sshd[28386]: Disconnected from user admin-demo 10.99.0.12 port 40219
+Nov  1 10:09:12 srv-web-01 sshd[28386]: pam_unix(sshd:session): session closed for user admin-demo
+Nov  1 10:59:37 srv-files-01 sshd[23674]: Accepted password for user03 from 10.30.10.21 port 46007 ssh2
+Nov  1 10:59:37 srv-files-01 sshd[23674]: pam_unix(sshd:session): session opened for user user03(uid=1012) by (uid=0)
+Nov  1 11:24:32 srv-files-01 sshd[7910]: Accepted password for batch-demo from 10.30.40.9 port 55586 ssh2
+Nov  1 11:24:32 srv-files-01 sshd[7910]: pam_unix(sshd:session): session opened for user batch-demo(uid=1009) by (uid=0)
+Nov  1 11:30:44 srv-files-01 sshd[24111]: Failed password for user03 from 10.30.10.58 port 36170 ssh2
+Nov  1 12:44:40 srv-files-01 sshd[29909]: Accepted password for batch-demo from 10.30.40.7 port 42968 ssh2
+Nov  1 12:44:40 srv-files-01 sshd[29909]: pam_unix(sshd:session): session opened for user batch-demo(uid=1009) by (uid=0)
+Nov  1 12:52:39 srv-web-01 sshd[27590]: Accepted password for admin-demo from 10.10.1.3 port 44196 ssh2
+Nov  1 12:52:39 srv-web-01 sshd[27590]: pam_unix(sshd:session): session opened for user admin-demo(uid=1007) by (uid=0)
+Nov  1 12:53:32 srv-files-01 sshd[7910]: Disconnected from user batch-demo 10.30.40.9 port 55586
+Nov  1 12:53:32 srv-files-01 sshd[7910]: pam_unix(sshd:session): session closed for user batch-demo
+Nov  1 13:14:37 srv-files-01 sshd[23674]: Disconnected from user user03 10.30.10.21 port 46007
+Nov  1 13:14:37 srv-files-01 sshd[23674]: pam_unix(sshd:session): session closed for user user03
+Nov  1 13:58:04 srv-app-01 sshd[27250]: Invalid user ubuntu from 192.0.2.150 port 60602
+Nov  1 13:58:04 srv-app-01 sshd[27250]: Failed password for invalid user ubuntu from 192.0.2.150 port 60602 ssh2
+Nov  1 13:58:05 srv-app-01 sshd[27250]: Connection closed by invalid user ubuntu 192.0.2.150 port 60602 [preauth]
+Nov  1 14:04:40 srv-files-01 sshd[29909]: Disconnected from user batch-demo 10.30.40.7 port 42968
+Nov  1 14:04:40 srv-files-01 sshd[29909]: pam_unix(sshd:session): session closed for user batch-demo
+Nov  1 14:05:10 srv-files-01 sshd[8107]: Invalid user service-backup from 192.168.1.14 port 48415
+Nov  1 14:05:10 srv-files-01 sshd[8107]: Failed password for invalid user service-backup from 192.168.1.14 port 48415 ssh2
+Nov  1 14:05:11 srv-files-01 sshd[8107]: Connection closed by invalid user service-backup 192.168.1.14 port 48415 [preauth]
+Nov  1 14:05:16 srv-files-01 sshd[15542]: Invalid user service-backup from 192.168.1.14 port 55865
+Nov  1 14:05:16 srv-files-01 sshd[15542]: Failed password for invalid user service-backup from 192.168.1.14 port 55865 ssh2
+Nov  1 14:05:22 srv-files-01 sshd[31609]: Invalid user service-backup from 192.168.1.14 port 45269
+Nov  1 14:05:22 srv-files-01 sshd[31609]: Failed password for invalid user service-backup from 192.168.1.14 port 45269 ssh2
+Nov  1 14:05:28 srv-files-01 sshd[30378]: Invalid user service-backup from 192.168.1.14 port 48476
+Nov  1 14:05:28 srv-files-01 sshd[30378]: Failed password for invalid user service-backup from 192.168.1.14 port 48476 ssh2
+Nov  1 14:05:34 srv-files-01 sshd[24831]: Invalid user service-backup from 192.168.1.14 port 53838
+Nov  1 14:05:34 srv-files-01 sshd[24831]: Failed password for invalid user service-backup from 192.168.1.14 port 53838 ssh2
+Nov  1 14:05:35 srv-files-01 sshd[24831]: Connection closed by invalid user service-backup 192.168.1.14 port 53838 [preauth]
+Nov  1 14:05:40 srv-files-01 sshd[16576]: Invalid user service-backup from 192.168.1.14 port 41486
+Nov  1 14:05:40 srv-files-01 sshd[16576]: Failed password for invalid user service-backup from 192.168.1.14 port 41486 ssh2
+Nov  1 14:09:22 srv-app-01 sshd[17478]: Invalid user root from 198.51.100.8 port 56052
+Nov  1 14:09:22 srv-app-01 sshd[17478]: Failed password for invalid user root from 198.51.100.8 port 56052 ssh2
+Nov  1 14:49:39 srv-web-01 sshd[27590]: Disconnected from user admin-demo 10.10.1.3 port 44196
+Nov  1 14:49:39 srv-web-01 sshd[27590]: pam_unix(sshd:session): session closed for user admin-demo
+Nov  1 15:08:58 srv-files-01 sshd[27275]: Failed password for user03 from 10.30.10.58 port 34782 ssh2
+Nov  1 16:40:55 srv-app-01 sshd[5364]: Invalid user pi from 203.0.113.88 port 38638
+Nov  1 16:40:55 srv-app-01 sshd[5364]: Failed password for invalid user pi from 203.0.113.88 port 38638 ssh2
+Nov  1 16:40:56 srv-app-01 sshd[5364]: Connection closed by invalid user pi 203.0.113.88 port 38638 [preauth]
